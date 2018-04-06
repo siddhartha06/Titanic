@@ -86,6 +86,7 @@ titanicUpdated <-data.frame(titanicUpdated, EmbarkedN)
 
 write.csv(titanicUpdated,file = "E:/BA with R/Titanic project with R/titanicUpdated.csv")
 
+
 titanic.scaled <- scale(data.frame(titanic$Age,titanic$Parch,titanic$SibSp,titanic$Fare))
 colnames(titanic.scaled)
 totwss <- vector()
